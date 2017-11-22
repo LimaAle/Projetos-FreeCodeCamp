@@ -1,2 +1,2 @@
-# Projetos basicos de JS
-Learning Js
+# Projetos do FreeCodeCamp
+Projetos basicos do FreeCodeCamp
