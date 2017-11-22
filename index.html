@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Random Quote Machine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">        
+        <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script type="text/javascript"  src="quoteMachine.js">
+        </script>
+
+
+    </head>
+    <body>
+        <div class="container container-fluid">
+            <h1 class="text-center">Random Quote Machine</h1>
+            <div class="panel panel-default">
+                <blockquote>
+                    <p id="quote" class="text-center">Quote</p>
+                    <footer>
+                        <cite id="author">Author</cite>
+                    </footer>
+                </blockquote>
+            </div>  
+            <button id="tweet" class="btn btn-default "><i class="fa fa-twitter"></i> Tweet This!</button>
+            <button id="newQuote" class="btn btn-default pull-right">New Quote</button>     
+        </div>
+
+    </body>
+</html>
